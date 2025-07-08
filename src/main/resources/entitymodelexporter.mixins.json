@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "org.oryxel.entitymodelexporter.mixin.impl",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "ModelPartCubeMixin",
+      "ModelPartAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
